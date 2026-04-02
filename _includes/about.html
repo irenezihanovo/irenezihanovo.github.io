@@ -1,17 +1,33 @@
 <section id="about">
     <div class="wrapper">
         <div class="text-center">
-            <h1 class="blue-title">About me</h1>
-	    <div class="avatar"></div>
+
+            <h1 class="blue-title">About Me</h1>
+
+            <!-- 头像 -->
+            <img src="/assets/avatar.jpg" class="avatar" alt="avatar">
+
+            <!-- 简短tagline（推荐加，提升专业感） -->
+            <p class="tagline">NYC-Based Marketing Specialist</p>
+
+            <!-- About内容（从_config.yml读取） -->
             <div class="content text-center">
                 {{ site.author.about_me }}
             </div>
-            <div style="margin: 10px 0">
-                <a class="btn-primary btn-blue btn-left" href="mailto:{{ site.email }}" target="_blank">Email me</a>
-				{% if site.author.resume %}
-				<a class="btn-primary btn-blue btn-right" href="{{ site.author.resume }}" target="_blank">Resume</a>
-				{% endif %}
+
+            <!-- 按钮区域 -->
+            <div class="button-group">
+                <a class="btn-primary btn-blue btn-left" href="mailto:{{ site.email }}" target="_blank">
+                    Contact Me
+                </a>
+
+                {% if site.author.resume %}
+                <a class="btn-primary btn-blue btn-right" href="{{ site.author.resume }}" target="_blank">
+                    Download Resume
+                </a>
+                {% endif %}
             </div>
+
         </div>
     </div>
 </section>
