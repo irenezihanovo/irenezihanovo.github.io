@@ -1,6 +1,6 @@
 #Site
-title: 水榭清松-Song Kong
-description: This is Song' home.
+title: 纽约甜豆-Irene Zhang
+description: This is Zhang' home.
 logo: favicon.png
 url: ikongsong.com
 rss_url: /feed.xml
@@ -33,12 +33,12 @@ baidu_analytics: 5b31ffbbdc6cff18727f3adf75a03777    #from //hm.baidu.com/hm.js?
 
 # Author information:
 author:
-  #resume: /resume
-  name: Song Kong     #the name of Blog section
-  about_me: I'm Song Kong. This is my online home & blog, where I share thoughts about front-end development, cloud computing, my daily life and other insteresting topics. Feel free to contact me by email if you have any question.
+  about_me: >
+    I am a marketing professional based in New York, specializing in social media growth,
+    branding, and customer acquisition. I enjoy helping businesses build strong online presence.
  
 # Social Links
-email:               hi@ikongsong.com
+email:               irenezihanovo@gmail.com
 #google.plus:        username
 #twitter:            username
 facebook:            kongsong
